@@ -1,3 +1,5 @@
 Weather in Pune, IN: 25.22°C, few clouds with wind speed 1.04 m/s. Feels like 24.74°C with humidity 36%.
 Weather in Haryana, IN: 23.17°C, scattered clouds with wind speed 2.59 m/s. Feels like 21.96°C with humidity 16%.
 Weather in Delhi, IN: 15.05°C, fog with wind speed 2.57 m/s. Feels like 14.75°C with humidity 82%.
+Weather in Pune, IN: 28.33°C, scattered clouds with wind speed 1.74 m/s. Feels like 26.95°C with humidity 19%.
+Weather in Kolkata, IN: 18.97°C, haze with wind speed 4.12 m/s. Feels like 18.36°C with humidity 55%.

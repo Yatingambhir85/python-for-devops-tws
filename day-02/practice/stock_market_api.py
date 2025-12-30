@@ -1,6 +1,10 @@
-import requests
 
-API_KEY='ZOJ82H60E41M1PC4'
+import os
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.getenv('STOCK_MARKET_API_KEY', 'your_default_api_key_here')
 SERVER_URL='https://www.alphavantage.co/'
 
 symbols = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'FB', 'NVDA', 'JPM', 'V', 'DIS', 'NFLX', 'ADBE', 'PYPL', 'INTC', 'CSCO', 'CMCSA', 'PEP', 'KO', 'NKE', 'WMT', 'BABA', 'ORCL', 'SAP', 'CRM', 'ABNB', 'UBER', 'LYFT', 'SQ', 'TWTR', 'SNAP', 'ZM', 'SHOP', 'SPOT', 'DOCU', 'ROKU', 'ETSY', 'CRWD', 'OKTA', 'ZS', 'DDOG', 'NET', 'FSLY', 'PLTR', 'AI', 'MDB', 'NOW', 'WORK', 'TEAM', 'DASH', 'RBLX', 'IBM']
